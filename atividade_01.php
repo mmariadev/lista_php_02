@@ -55,7 +55,7 @@ function analisarSenha(string $senha): array {
 
 
 
-$minhaSenha = "JBHSH2093yhfgr!";
+$minhaSenha = "MAriaClaRADEBrito1!!!";
 $relatorio = analisarSenha($minhaSenha);
 
 echo "<h3>Análise da Senha: " . ($minhaSenha) . "</h3>";
