@@ -84,7 +84,7 @@ function processarTexto(string $texto): array {
 }
 
 
-$textoEntrada = "Com grandes poderes, vem grandes responsabilidades";
+$textoEntrada = "Sou da turma DSM8";
 
 $relatorio = processarTexto($textoEntrada);
 
