@@ -1,5 +1,5 @@
 <?php
-// Exercício 18 – Gerenciador de Agenda
+
 
 
 function ordenarConsultasPorHorario(array $consultas): array {
@@ -40,7 +40,7 @@ function verificarHorariosDuplicados(array $consultas): bool {
     foreach ($consultas as $c) {
         $chave = $c['data'] . ' ' . $c['horario'];
         if (in_array($chave, $datasEHorarios)) {
-            return true; // Existe duplicado
+            return true; 
         }
         $datasEHorarios[] = $chave;
     }
