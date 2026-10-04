@@ -77,11 +77,11 @@ function organizarAgenda(array $consultas, string $pacienteParaPesquisar = ''): 
 
 
 $agenda = [
-    ['paciente' => 'Carlos Silva',  'especialidade' => 'Cardiologia',  'data' => '2026-03-30', 'horario' => '14:30'],
-    ['paciente' => 'Ana Souza',     'especialidade' => 'Dermatologia', 'data' => '2026-03-30', 'horario' => '08:00'],
-    ['paciente' => 'Beatriz Lima',  'especialidade' => 'Cardiologia',  'data' => '2026-03-30', 'horario' => '10:15'],
-    ['paciente' => 'Carlos Silva',  'especialidade' => 'Ortopedia',    'data' => '2026-03-30', 'horario' => '16:00'],
-    ['paciente' => 'João Pedro',    'especialidade' => 'Dermatologia', 'data' => '2026-03-30', 'horario' => '11:00']
+    ['paciente' => 'Arnaldo Vieira',  'especialidade' => 'Cardiologia',  'data' => '2026-03-30', 'horario' => '15:30'],
+    ['paciente' => 'Ana Beatriz',     'especialidade' => 'Dermatologia', 'data' => '2026-03-30', 'horario' => '08:45'],
+    ['paciente' => 'João Carlos',  'especialidade' => 'Cardiologia',  'data' => '2026-03-30', 'horario' => '10:00'],
+    ['paciente' => 'Pedro Paulo',  'especialidade' => 'Ortopedia',    'data' => '2026-03-30', 'horario' => '12:00'],
+    ['paciente' => 'Victor da Silva',    'especialidade' => 'Dermatologia', 'data' => '2026-03-30', 'horario' => '14:00']
 ];
 
 $pacienteBuscado = "Carlos Silva";
