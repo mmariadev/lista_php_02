@@ -1,5 +1,5 @@
 <?php
-// Exercício 16 – Analisador de Senhas
+
 
 function contarLetrasMaiusculas(string $senha): int {
     return preg_match_all('/[A-Z]/', $senha);
@@ -55,7 +55,7 @@ function analisarSenha(string $senha): array {
 
 
 
-$minhaSenha = "CaIoMarques2509!";
+$minhaSenha = "JBHSH2093yhfgr!";
 $relatorio = analisarSenha($minhaSenha);
 
 echo "<h3>Análise da Senha: " . ($minhaSenha) . "</h3>";
